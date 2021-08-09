@@ -6,10 +6,10 @@ const Header = () => {
             <div className="ui secondary menu">
 
                 <div className="item">
-                    <img className="ui image" src="./assets/logo.png" style={{ 'height': 94 }} />
+                    <img className="ui image img-height" src="./assets/logo.png" />
                 </div>
                 <div className="item ">
-                    <div className="custom-style">Request a Demo</div>
+                    <div className="custom-style">Request A Demo</div>
                 </div>
                 <div className="right menu">
                     <div className="item">

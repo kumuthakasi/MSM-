@@ -5,10 +5,10 @@ class Content extends React.Component {
     render() {
         return (
             <div>
-                <div className="ui centered card" style={{ width: '30%' }}>
+                <div className="ui centered card custom-width">
                     <div className="content">
                         <div className="header">
-                            <img className="ui image" src="./assets/logo.png" />
+                            <img className="ui image img-width" src="./assets/logo.png" />
                         </div>
                     </div><div className="content">
                         <div className="description">
@@ -27,11 +27,11 @@ class Content extends React.Component {
                                         <label>Remember Me</label>
                                     </div>
                                 </div>
-                                <div className="field" style={{ backgroundColor: '#d6d6d6' }} >
+                                <div className="field" >
                                     <button type="submit" className="ui primary button" style={{ width: '100%' }}>Login</button></div></form>
                         </div>
                     </div>
-                    <div className="extra content">
+                    <div className="extra content custom-color">
                         <a href="" >Forgot Username?</a>  | &nbsp;
                         <a href="" >Forgot Password?</a></div>
                 </div>
