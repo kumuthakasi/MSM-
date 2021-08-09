@@ -1,0 +1,17 @@
+.custom-button {
+    color: white;
+    background-color: #5c7d0b;
+    height: 40px;
+    width: 180px;
+    border: 1px solid #5c7d0b;
+    margin: 38px 20px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+.custom-style {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 66px;
+}
