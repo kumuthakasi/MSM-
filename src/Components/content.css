@@ -4,6 +4,6 @@
     font-size: 18px;
     padding: 10px;
 }
-input::content {
-    border-color: green;
+.ui.centered.card {
+    background-color: #fafafa;
 }

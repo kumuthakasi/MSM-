@@ -27,10 +27,11 @@ class Content extends React.Component {
                                         <label>Remember Me</label>
                                     </div>
                                 </div>
-                                <div className="field">
-                                    <button type="submit" className="ui primary button">Login</button></div></form>
+                                <div className="field" style={{ backgroundColor: '#d6d6d6' }} >
+                                    <button type="submit" className="ui primary button" style={{ width: '100%' }}>Login</button></div></form>
                         </div>
-                    </div><div className="extra content">
+                    </div>
+                    <div className="extra content">
                         <a href="" >Forgot Username?</a>  | &nbsp;
                         <a href="" >Forgot Password?</a></div>
                 </div>
