@@ -1,5 +1,6 @@
 import React from 'react';
-import './header.css'
+import './style.css';
+import { Link, BrowserRouter as Router, Route } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
@@ -9,7 +10,11 @@ const Header = () => {
                     <img className="ui image img-height" src="./assets/logo.png" />
                 </div>
                 <div className="item ">
-                    <div className="custom-style">Request A Demo</div>
+                    <div className="custom-style">
+                        <Router>
+                            {/* <Link to="/requestdemo">Request A Demo</Link> */}
+                        </Router>
+                    </div>
                 </div>
                 <div className="right menu">
                     <div className="item">

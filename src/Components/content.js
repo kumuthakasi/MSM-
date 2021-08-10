@@ -1,14 +1,14 @@
 import React from 'react';
-import './content.css';
+import './style.css';
 
 class Content extends React.Component {
     render() {
         return (
-            <div>
+            <div className="custom-margin">
                 <div className="ui centered card custom-width">
                     <div className="content">
                         <div className="header">
-                            <img className="ui image img-width" src="./assets/logo.png" />
+                            <img className="ui image" src="./assets/logo.png" />
                         </div>
                     </div><div className="content">
                         <div className="description">

@@ -1,0 +1,79 @@
+.custom-button {
+    color: white;
+    background-color: #5c7d0b;
+    height: 40px;
+    width: 180px;
+    border: 1px solid #5c7d0b;
+    margin: 38px 20px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+.custom-style {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 66px;
+}
+.img-height {
+    height: 94px;
+}
+.custom-login {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 17px;
+}
+.ui.centered.card {
+    background-color: #fafafa;
+}
+.ui.card.custom-width {
+    width: 30%;
+}
+.ui.card.custom-color {
+    background-color: "#d6d6d6";
+}
+
+.custom-margin {
+    margin-bottom: 5%;
+}
+.custom-img {
+    width: 109px;
+    margin-left: 10px;
+    margin-bottom: 7%;
+}
+i.icon.custom-style {
+    margin-bottom: 22px;
+}
+.custom-size {
+    width: 400px;
+}
+h1 {
+    font-size: 53px;
+    color: rgba(35, 36, 65, 1);
+}
+.ui.grid {
+    margin-top: 60px;
+}
+p {
+    font-weight: bold;
+    font-size: 16px;
+}
+.ui.form .field > label {
+    font-size: large;
+}
+.custom-block {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+}
+.ui.button.custom-button {
+    background-color: #232342;
+    border-radius: 5px;
+    color: white;
+}
+.custom-footer {
+    background-color: #232342;
+    height: 100px;
+    margin-top: 70px;
+}
