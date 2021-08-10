@@ -8,9 +8,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {/* <Header />
+        <Header />
         <Content />
-        <Footer /> */}
+        <Footer />
         <Router>
           <Route path="/requestdemo" component={RequestDemo} /></Router>
       </div>
