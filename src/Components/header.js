@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="item ">
                     <div className="custom-style">
                         <Router>
-                            {/* <Link to="/requestdemo">Request A Demo</Link> */}
+                            <Link to="/requestdemo">Request A Demo</Link>
                         </Router>
                     </div>
                 </div>

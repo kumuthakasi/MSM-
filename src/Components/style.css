@@ -1,6 +1,6 @@
 .custom-button {
     color: white;
-    background-color: #5c7d0b;
+    background-color: teal;
     height: 40px;
     width: 180px;
     border: 1px solid #5c7d0b;
@@ -10,7 +10,7 @@
     padding: 5px 15px;
     border-radius: 2px;
 }
-.custom-style {
+.ui.menu .item.custom-style {
     font-weight: 400;
     font-size: 16px;
     margin-top: 66px;
@@ -76,4 +76,38 @@ p {
     background-color: #232342;
     height: 100px;
     margin-top: 70px;
+}
+.custom-image {
+    position: relative;
+    height: 820px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.custom-heromain-text {
+    color: white;
+    font-size: 36px;
+    margin-top: 10px;
+}
+.heromain-text {
+    width: 34%;
+    color: #756b20;
+}
+.heromain {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.custom-card {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.custom-link {
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.custom-link a {
+    color: white;
+    cursor: pointer;
 }
